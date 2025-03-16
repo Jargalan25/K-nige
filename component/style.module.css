@@ -1,0 +1,156 @@
+.zoom {
+  transition: transform 0.2s;
+  text-decoration: none;
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+}
+
+.zoom:hover,
+.zoom:active {
+  transform: scale(1.1);
+}
+.textSetup {
+  text-align: center;
+  text-shadow: 0.5px 0.5px black;
+  position: sticky;
+}
+.heading {
+  border-bottom: 1px solid black;
+}
+
+.img {
+  border-radius: 10%;
+  margin: 5%;
+  /* overflow: hidden; */
+  width: auto;
+  height: auto;
+}
+
+.header {
+  padding: 10px;
+  text-align: center;
+  background: brown;
+  color: white;
+  font-size: 27px;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: brown;
+  color: white;
+  font-size: 27px;
+  width: 100%;
+  position: relative;
+}
+
+.garchig {
+  border: 1px solid black;
+  height: auto;
+  width: auto;
+  margin: 1%;
+  padding: 1%;
+  position: sticky;
+  font-size: auto;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+/* .zohitsuulagch {
+  display: flex;
+  flex-wrap: wrap;
+   min-width: none;
+  max-width: 1400px; 
+  height: 100%;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+} */
+
+.imageBorder {
+  display: flex;
+  font-size: auto;
+  flex-direction: row;
+  border: 1px solid black;
+  overflow: auto;
+  position: sticky;
+  align-items: center;
+  margin: 1%;
+  padding: 1%;
+  height: auto;
+  width: auto;
+  background-color: rgba(255, 255, 255, 0.4);
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+.fullTextSetup {
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: sticky;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.imageBorder1 {
+  display: flex;
+  flex-direction: column;
+  font-size: auto;
+  border: 1px solid black;
+  overflow: scroll;
+  position: sticky;
+  margin: 1%;
+  padding: 1%;
+  min-width: none;
+  max-width: 240px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.backgroundColor {
+  background-color: rgba(255, 255, 255, 0.4);
+  /* min-width: none;
+  max-width: min-content; */
+}
+.button {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: orangered;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.label {
+  min-width: none;
+  max-width: min-content;
+  align-self: center;
+}
+.brown {
+  background-color: brown;
+  color: white;
+}
+
+.posits {
+  position: fixed;
+  bottom: 5%;
+  right: 1%;
+}
+.wid {
+  max-width: 600px;
+  min-width: none;
+  min-height: none;
+  max-height: 500px;
+}
