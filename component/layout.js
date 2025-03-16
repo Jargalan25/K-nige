@@ -32,7 +32,7 @@ export default function Layout({ children }) {
           className={`p-1 text-center align-self-start ${styles.header}`}
         >
           <nav>
-            <h2 className="mb-4">Die Geschichte der 10 mongolischen Könige</h2>
+            <h2 className="mb-4">Die Geschichte der 10 mongolischen Könige.</h2>
           </nav>
         </header>
         <div>
